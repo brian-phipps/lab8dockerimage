@@ -8,7 +8,7 @@ ENV MyName="Brian"
 WORKDIR /app
 #working path for application inside container
 
-COPY DockerMiniWebsite/src/ /usr/share/nginx/html
+COPY DockerMiniWebsite/src/ /usr/share/nginx/
 #copy the files for html from our working directory to the  direcotry that nginx will use
 
 
